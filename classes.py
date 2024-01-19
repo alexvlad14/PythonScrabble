@@ -298,7 +298,7 @@ class Game:
                 with open("points.json") as file:
                     data = json.load(file)
                     print("Μπράβο! Κέρδισες τον υπολογιστή ", data['Παίκτης'], "φορές")
-                    print("Μπράβο! Κέρδισες τον υπολογιστή ", data['Η/Υ'], "φορές")
+                    print("Εχασες απο τον υπολογιστή ", data['Η/Υ'], "φορές")
                     input("Enter για να συνεχίσεις")
         if main_menu == '3': return
         if main_menu == 'Q': exit()
@@ -349,7 +349,7 @@ class Game:
         else:
             print("Iσοπαλία!")
         print("Μπράβο! Κέρδισες τον υπολογιστή ", data['Παίκτης'], "φορές")
-        print("Μπράβο! Κέρδισες τον υπολογιστή ", data['Η/Υ'], "φορές")
+        print("Εχασες απο τον υπολογιστή ", data['Η/Υ'], "φορές")
         print("************************************")
 
         with open("points.json", "w") as file:
