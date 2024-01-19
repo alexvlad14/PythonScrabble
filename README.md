@@ -20,7 +20,7 @@ The player is capable of selecting 3 different difficulties (min, max, smart).
 # Game
 The player can choose a number of letters to form a word. The game counts the value of the letters and removes them from the bag. The computer then takes its turn and forms its word according to difficulty. The game continues in this manner until the bag of letters is empty.
 
-![Screenshot_1](image/pytho4.png)
+![Screenshot_1](image/python4.png)
 
 # Quit
 If player writes q, the game ends and updates the scoreboard.
